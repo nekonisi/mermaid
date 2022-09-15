@@ -99,4 +99,4 @@ VScode, Vim, Sublimeのプラグイン等で使用できるようなので、使
 
 ## 書き方
 [公式ドキュメント](https://mermaid-js.github.io/mermaid/#/)のほうが100倍分かりやすいですが、せっかくなので一応用意しました。
-- [シーケンス](./SequenceDiagram)
+- [シーケンス](./SequenceDiagram.md)
