@@ -16,7 +16,7 @@ sequenceDiagram　# シーケンス図ですよと宣言
     participant tomorrow As 明日
 
     # メッセージを書く
-    human->tomorrow:向かう
+    human->>tomorrow:向かう
 ```
 
 ```mermaid
@@ -26,7 +26,7 @@ sequenceDiagram　# シーケンス図ですよと宣言
     participant tomorrow As 明日
 
     # メッセージを書く
-    human->tomorrow:向かう
+    human->>tomorrow:向かう
 ```
 
 ### 矢印（メッセージ）
