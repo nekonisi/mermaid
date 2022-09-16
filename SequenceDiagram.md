@@ -12,21 +12,21 @@ mermaid.jsにおけるシーケンス図は下記の形で作成します。
 ```
 sequenceDiagram　# シーケンス図ですよと宣言
     # 登場人物の宣言
-    Actor u As 僕
-    participant g As 明日
+    Actor human As 明日
+    participant tomorrow As 明日
 
     # メッセージを書く
-    u->g:向かう
+    human->tomorrow:向かう
 ```
 
 ```mermaid
 sequenceDiagram　# シーケンス図ですよと宣言
     # 登場人物の宣言
-    Actor u As 人間
-    participant g As 明日
+    Actor human As 明日
+    participant tomorrow As 明日
 
     # メッセージを書く
-    u->>g:向かう
+    human->tomorrow:向かう
 ```
 
 ### 矢印（メッセージ）
