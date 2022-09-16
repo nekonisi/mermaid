@@ -159,7 +159,8 @@ sequenceDiagram
 
     # loop 繰り返し処理で使用します
     loop 何度でも
-        m->>y:君の名前
+        m->>m:立ち上がる
+        m->>y:名前
         break 10001回目
             m->>m:何かが変わる
         end
@@ -174,7 +175,8 @@ sequenceDiagram
 
     # loop 繰り返し処理で使用します
     loop 何度でも
-        m->>y:君の名前
+        m->>m:立ち上がる
+        m->>y:名前
         break 10001回目
             m->>m:何かが変わる
         end
